@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_size"
+    android:orientation="vertical"
+    tools:context=".ut01.ex02.presentation.Ut01Ex02Activity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_size"
+        android:layout_margin="@dimen/margin_size"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_kebab"
+        app:tint="@color/teal_700"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/tittle" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/description" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="155dp"
+                android:layout_height="@dimen/icon_size"
+                android:layout_margin="@dimen/margin_size"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_stars"
+                app:tint="@color/stars"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="155dp"
+                android:layout_height="@dimen/icon_size"
+                android:layout_margin="@dimen/margin_size"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_hearth"
+                app:tint="@color/stars"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
