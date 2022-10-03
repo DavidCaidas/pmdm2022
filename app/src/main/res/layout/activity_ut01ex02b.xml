@@ -20,7 +20,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -42,7 +42,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
             <androidx.appcompat.widget.AppCompatImageView
@@ -56,13 +56,16 @@
 
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="155dp"
+                android:layout_width="215dp"
                 android:layout_height="@dimen/icon_size"
                 android:layout_margin="@dimen/margin_size"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="@dimen/image_size"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ic_hearth"
-                app:tint="@color/stars"
-                />
+                app:tint="@color/stars" />
+
+
 
         </LinearLayout>
 
