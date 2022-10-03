@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_size"
+    android:orientation="horizontal"
+    tools:context=".ut01.ex02.presentation.Ut01Ex02Activity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_lion"
+        android:layout_margin="@dimen/margin_size"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:maxLines="1"
+        android:layout_margin="@dimen/margin_size"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle"
+        android:maxLines="1"
+        android:layout_margin="@dimen/margin_size"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:maxLines="2"
+        android:layout_margin="@dimen/margin_size"
+        android:ellipsize="end"
+        />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

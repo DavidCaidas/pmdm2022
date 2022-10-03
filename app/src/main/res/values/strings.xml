@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">PMDM</string>
     <string name="Ut01Ex01">PMDM</string>
+    <string name="date">01/01/2022</string>
+
+    <string name="tittle">Hamburguesa</string>
+
+    <string name="description">hamburguesa de queso y carne de vacuno con lechuga de granja y tomates de feria y queso vegano
+    con albahaca y perejil asdasasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</string>
+
+
 </resources>
