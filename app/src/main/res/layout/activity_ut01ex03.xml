@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:layout_margin="@dimen/margin_size">
+
+    <TextView
+        android:id="@+id/texto01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="texto1" />
+
+    <TextView
+        android:id="@+id/texto02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/texto01"
+        android:text="texto2" />
+
+    <TextView
+        android:id="@+id/texto03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/texto02"
+        android:text="texto3" />
+
+    <TextView
+        android:id="@+id/texto03.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto03"
+        android:layout_toEndOf="@id/texto02"
+        android:text="texto3.2" />
+
+    <TextView
+        android:id="@+id/texto03.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto03.2"
+        android:layout_toEndOf="@id/texto02"
+        android:text="texto3.3" />
+
+
+    <TextView
+        android:id="@+id/texto04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/texto03"
+        android:text="texto4"
+        android:layout_alignStart="@id/texto04.1"
+
+        />
+
+    <TextView
+        android:id="@+id/texto04.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto4.1"
+        android:layout_below="@id/texto04"
+        android:layout_toEndOf="@id/texto03.2"
+
+        />
+
+    <TextView
+        android:id="@+id/texto04.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto4.2"
+        android:layout_toEndOf="@id/texto04.1"
+        android:layout_below="@id/texto04"
+        />
+
+    <TextView
+        android:id="@+id/texto05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto5"
+        android:layout_toEndOf="@id/texto04.2"
+
+        />
+
+
+</RelativeLayout>
