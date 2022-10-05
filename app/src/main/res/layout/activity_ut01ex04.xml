@@ -20,7 +20,7 @@
         <RelativeLayout
             android:id="@+id/imagen"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="110dp"
             android:background="@drawable/ic_zoo"
             android:gravity="fill_vertical"
 
@@ -30,7 +30,7 @@
                 android:id="@+id/disponibles3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="25dp"
+                android:layout_margin="15dp"
                 android:background="@color/yellow"
                 android:text="3 disponibles"
 
@@ -42,6 +42,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/disponibles3"
+                android:layout_margin="10dp"
                 app:srcCompat="@drawable/ic_hearth"
                 app:tint="@color/teal_700"
 
@@ -56,11 +57,14 @@
                 android:layout_toEndOf="@+id/icono"
                 android:layout_toRightOf="@+id/icono"
                 android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
                 android:maxLines="2"
                 android:text="Cheema fruteria- general Ricardos -urianasodinasodniaoisndoiasndoiansaosidnoaisndoaosidnaosidnoaisndoiansdoinaosidnon"
                 android:textColor="@color/white"
+                android:textSize="25dp"
 
                 />
+
 
         </RelativeLayout>
 
@@ -77,7 +81,9 @@
                 android:id="@+id/pack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
                 android:text="Pack sorpesa"
+                android:textStyle="bold"
 
                 />
 
@@ -86,6 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/pack"
+                android:paddingVertical="10dp"
                 android:text="recogida hoy : 00:14-23:59"
 
                 />
@@ -95,8 +102,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/recogida"
 
-
-
                 >
 
 
@@ -104,28 +109,30 @@
                     android:id="@+id/puntuacion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2,7"
                     android:paddingHorizontal="50dp"
+                    android:text="2,7"
+
                     />
 
                 <TextView
                     android:id="@+id/distancia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4,1 km"
                     android:layout_toEndOf="@id/puntuacion"
                     android:paddingHorizontal="50dp"
+                    android:text="4,1 km"
+
                     />
 
                 <TextView
                     android:id="@+id/precio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2,99€"
                     android:layout_toEndOf="@id/distancia"
                     android:paddingHorizontal="50dp"
-                    />
+                    android:text="2,99€"
 
+                    />
 
             </RelativeLayout>
 
