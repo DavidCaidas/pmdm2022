@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pestaña"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_size"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/ic_zoo"
+            android:gravity="fill_vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/disponibles3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@color/yellow"
+                android:text="3 disponibles"
+
+                />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icono"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/disponibles3"
+                app:srcCompat="@drawable/ic_hearth"
+                app:tint="@color/teal_700"
+
+                />
+
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/disponibles3"
+                android:layout_toEndOf="@+id/icono"
+                android:layout_toRightOf="@+id/icono"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Cheema fruteria- general Ricardos -urianasodinasodniaoisndoiasndoiansaosidnoaisndoaosidnaosidnoaisndoiansdoinaosidnon"
+                android:textColor="@color/white"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagen"
+
+            >
+
+
+            <TextView
+                android:id="@+id/pack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pack sorpesa"
+
+                />
+
+            <TextView
+                android:id="@+id/recogida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pack"
+                android:text="recogida hoy : 00:14-23:59"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recogida"
+
+
+
+                >
+
+
+                <TextView
+                    android:id="@+id/puntuacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,7"
+                    android:paddingHorizontal="50dp"
+                    />
+
+                <TextView
+                    android:id="@+id/distancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4,1 km"
+                    android:layout_toEndOf="@id/puntuacion"
+                    android:paddingHorizontal="50dp"
+                    />
+
+                <TextView
+                    android:id="@+id/precio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,99€"
+                    android:layout_toEndOf="@id/distancia"
+                    android:paddingHorizontal="50dp"
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
