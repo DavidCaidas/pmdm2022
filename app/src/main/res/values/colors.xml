@@ -11,5 +11,6 @@
     <color name="stars">#FFD900</color>
     <color name="yellow">#D4FFEA75</color>
     <color name="fondo">#E8C3C3C3</color>
+    <color name="circulo">#515151</color>
 
 </resources>

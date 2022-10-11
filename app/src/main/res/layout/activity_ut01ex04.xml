@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="110dp"
             android:background="@drawable/ic_zoo"
-            android:gravity="fill_vertical"
+            android:gravity="center_vertical"
 
             >
 
@@ -36,6 +36,18 @@
 
                 />
 
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/circulo"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/ic_hearth"
+                app:tint="@color/circulo"
+                android:layout_toEndOf="@+id/disponibles3"
+                android:layout_marginLeft="220dp"
+                android:layout_alignTop="@+id/disponibles3"
+
+                />
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/icono"

@@ -9,4 +9,10 @@
     con albahaca y perejil asdasasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</string>
 
 
+    <string name="form_label_name">nombre:</string>
+
+    <string name="form_label_surname">apellidos:</string>
+
+    <string name="form_label_save">guardar</string>
+
 </resources>
