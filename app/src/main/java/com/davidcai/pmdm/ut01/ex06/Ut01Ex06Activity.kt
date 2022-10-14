@@ -31,7 +31,7 @@ class Ut01Ex06Activity : AppCompatActivity() {
         Log.d("@dev", "Cat: $cat")
 
 
-        /*
+
         actionSave.setOnClickListener {
             Log.d("@dev", "clicked")
         }
@@ -53,10 +53,6 @@ class Ut01Ex06Activity : AppCompatActivity() {
         actionSave.setOnClickListener {
             Log.d("@dev", "name :${inputName.text.toString()}")
         }
-        */
-
-
-
 
     }
 }
